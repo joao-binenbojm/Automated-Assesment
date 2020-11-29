@@ -1,0 +1,6 @@
+String Manipulation-Test 1:
+nihir passed test_1
+
+String Manipulation-Test 2:
+nihir passed test_2
+
