@@ -1,0 +1,18 @@
+Hangman Challenge:
+Failed the use case blabla
+
+Math Challenge:
+Failed the use case blabla
+
+String Manipulation-Test 1:
+nihir passed test_1
+
+String Manipulation-Test 2:
+nihir passed test_2
+
+String Manipulation-Test 1:
+nihir passed test_1
+
+String Manipulation-Test 2:
+nihir passed test_2
+
