@@ -1,10 +1,13 @@
-import make_function as mf
+import utils.make_function as mf
 
 path_code = 'students_block_code_string'  # change directory for every notebook
 args_list = ['string1', 'string2']
 # name = 'nihir'
-name = 'hatice'
+# name = 'hatice'
 # name = 'joao'
+
+with open('current_student.txt', 'r') as f:
+    name = f.read()
 
 func = mf.make_function(path_code, name, "string2 = 'xyz'", 'result', args_list)
 
