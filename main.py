@@ -9,6 +9,10 @@ import pandas as pd
 names = pd.read_csv('names.csv').iloc[:, 0]
 BASEDIR = '/Users/joaobinenbojm/Desktop/Automated-Assesment'
 
+# Removing any old reports in the reports directory
+subprocess.call(['rm', '-rf', BASEDIR + '/reports'])
+subprocess.Popen("mkdir reports", shell=True)
+
 # Adds current student's name to the file to be read by unit test
 for name in names:
     with open('current_student.txt', 'w') as f:
