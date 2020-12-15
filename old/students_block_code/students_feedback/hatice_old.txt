@@ -1,0 +1,24 @@
+Branching-Test 1:
+hatice failed test_1
+
+Branching-Test 2:
+hatice failed test_2
+
+String Manipulation-Test 1:
+hatice passed test_1
+
+String Manipulation-Test 2:
+hatice passed test_2
+
+String Manipulation-Test 1:
+hatice passed test_1
+
+String Manipulation-Test 2:
+hatice passed test_2
+
+String Manipulation-Test 1:
+hatice passed test_1
+
+String Manipulation-Test 2:
+hatice passed test_2
+
