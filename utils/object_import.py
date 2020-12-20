@@ -1,5 +1,8 @@
 import sys
-sys.path.insert(1, '/Users/joaobinenbojm/desktop/Automated-Assesment/submissions/defs')
+# sys.path.insert(1, '/Users/joaobinenbojm/desktop/Automated-Assesment/submissions/defs')
+# 20.12.2020 - HTC - change directory
+sys.path.insert(1, 'C:/Users/ahmet/Desktop/AI-Core-Testing/Joao-Version-4/Automated-Assesment/submissions/defs')
+
 import importlib
 
 def object_import(name, object_list):

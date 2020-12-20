@@ -1,6 +1,8 @@
 import utils.make_function as mf
 
-path_code = '/Users/joaobinenbojm/Desktop/Automated-Assesment/submissions/block'
+# path_code = '/Users/joaobinenbojm/Desktop/Automated-Assesment/submissions/block'
+# 20.12.2020 - HTC - change directory
+path_code = 'C:/Users/ahmet/Desktop/AI-Core-Testing/Joao-Version-4/Automated-Assesment/submissions/block'
 
 args_list = ['string1', 'string2']
 
