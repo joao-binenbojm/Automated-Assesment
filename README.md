@@ -1,5 +1,5 @@
 # Automated-Assesment
-Repo where we develop methods for automated assessment of code challenges for our courses. HTML reports will soon be easily converted to PDFs and the generated report formats will become more informative, concise, and easy to follow for students.
+Repo where we develop methods for automated assessment of code challenges for our courses. HTML reports are easily converted to PDFs and the generated report formats are become more informative, concise, and easy to follow for students.
 
 # Contents:
 - How to use
@@ -11,7 +11,7 @@ Repo where we develop methods for automated assessment of code challenges for ou
 - Make a directory for each challenge to be assessed per student in the **submissions** directory, and place student's .py submissions in their respective directories (e.g. place joao.py containing the answer to challenge1 in submission/challenge1)
 - Ensure that all pytest test files are in the Automated-Assesment directory
 - Run the main.py file
-- Generated reports are stored in the reports directory
+- Generated reports are stored in the reports directory in both html and pdf format
 
 ## Structural description
 
@@ -34,3 +34,9 @@ names.csv: File to be added to the main workspace by instructor, containing the 
 test_pytest_defs.py: Simple demo unit test for different functions
 
 test.pytest_string.py: Simple demo unit test for a small block of code
+
+utils/convert_html_to_pdf.py: It contains the function of converting any html file to a pdf file. It can be used for general purpose
+
+utils/conftest.py: It contains the configurations for html report design. Any design function can be added to this file and it will automatically applied in the report. [Click here for more info about implementation!](https://github.com/pytest-dev/pytest-html/blob/master/docs/user_guide.rst)
+
+config_files: This directory contains the files required for html-pdf conversion.
